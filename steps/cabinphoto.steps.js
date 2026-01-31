@@ -21,7 +21,7 @@ When("Choose filter in Cabin photos Overview", async function () {
   cabinPhoto = new CabinPhotos(pageFixture.page);
 
   const sharedData = cabinData;
-  const name  = '';
+  
    await cabinPhoto.CabinPhotoFilters(
     sharedData.year,
     sharedData.Week,
