@@ -1,0 +1,10 @@
+require('dotenv').config();
+
+module.exports = {
+  BRIDGE_TOKEN: process.env.BRIDGE_TOKEN,
+  BRIDGE_USER_DETAILS: JSON.parse(process.env.ADMIN_USER_DETAILS),
+  ICAMPPRO_USERNAME: process.env.ICAMPPRO_USERNAME,
+  ICAMPPRO_PASSWORD: process.env.ICAMPPRO_PASSWORD,
+  SIDEKICK_PORTAL_BASE_URL: process.env.SIDEKICK_PORTAL_BASE_URL,
+  ICAMP_PORTAL_BASE_URL: process.env.ICAMP_PORTAL_BASE_URL
+};

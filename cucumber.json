@@ -1,0 +1,20 @@
+{
+  "default": {
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "paths": ["features/*.feature"],
+    "require": ["steps/*.steps.js", "common/hooks.js", "@playwright/test"],
+    "dryRun": false,
+    "format": ["json:reports/cucumber-report.json", "rerun:@rerun.txt"]
+  },
+
+  "rerun": {
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "require": ["steps/*.steps.js", "common/hooks.js", "@playwright/test"],
+    "dryRun": false,
+    "format": ["json:reports/cucumber-report.json", "rerun:@rerun.txt"]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "playwright-cucumber-pinecove",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "report": "node generateReport.js",
+    "test:report": "npm run test && npm run report",
+    "test:failed": "cucumber-js -p rerun @rerun.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.1.0",
+    "@faker-js/faker": "^9.9.0",
+    "@playwright/test": "^1.54.1",
+    "csv-parse": "^6.1.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.2",
+    "playwright": "^1.54.1"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^7.2.0",
+    "fs-extra": "^11.3.0",
+    "pdf-parse": "^1.1.1"
+  }
+}

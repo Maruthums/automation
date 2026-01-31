@@ -1,0 +1,26 @@
+module.exports = {
+  ROLE_NAME: "Automation Role",
+  ADMIN_USER: {
+    firstName: "Automation",
+    lastName: "User",
+    email: "automation_test@pc.com",
+    password: "PC_automated@123",
+    userType: "Summer",
+    userRole: "SL Head Media",
+  },
+  STAFF_USER: {
+    firstName: "Automation",
+    lastName: "Staff",
+    mailStreet: "123 Automation St, Test City, TS, 12345",
+    mailCity: "Test City",
+    mailState: "TS",
+    mailZip: "12345",
+  },
+  FAMILY_CAMP: "Woods",
+  YOUTH_CAMP: "Towers",
+  EXTENDED_CAMP: "Shores Overflow",
+  CURRENT_YEAR: "2025",
+  NEXT_YEAR: "2026",
+  CAMPLIFE_APK_FILE: "CampLife",
+  SIDEKICK_APK_FILE: "Sidekick Mobile",
+};
